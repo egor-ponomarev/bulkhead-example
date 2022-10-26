@@ -1,0 +1,8 @@
+resilience4j:
+  bulkhead:
+    instances:
+      V1:
+        max-concurrent-calls: 1
+      V2:
+        max-concurrent-calls: 1
+
